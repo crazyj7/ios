@@ -16,6 +16,8 @@
 		752372EF293D798B001B5A3A /* myprofileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752372EE293D798B001B5A3A /* myprofileUITestsLaunchTests.swift */; };
 		752372FC293D7F33001B5A3A /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752372FB293D7F33001B5A3A /* MyCard.swift */; };
 		752372FE293D8ABF001B5A3A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752372FD293D8ABE001B5A3A /* ProfileView.swift */; };
+		75237302293DCC61001B5A3A /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75237301293DCC61001B5A3A /* MyWebView.swift */; };
+		75237304293DDDAD001B5A3A /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75237303293DDDAD001B5A3A /* MyTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		752372EE293D798B001B5A3A /* myprofileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myprofileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		752372FB293D7F33001B5A3A /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		752372FD293D8ABE001B5A3A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		75237301293DCC61001B5A3A /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		75237303293DDDAD001B5A3A /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				752372D1293D798A001B5A3A /* myprofileApp.swift */,
 				752372D3293D798A001B5A3A /* ContentView.swift */,
+				75237303293DDDAD001B5A3A /* MyTabView.swift */,
+				75237301293DCC61001B5A3A /* MyWebView.swift */,
 				752372FD293D8ABE001B5A3A /* ProfileView.swift */,
 				752372D5293D798B001B5A3A /* Assets.xcassets */,
 				752372D7293D798B001B5A3A /* Preview Content */,
@@ -264,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				752372FE293D8ABF001B5A3A /* ProfileView.swift in Sources */,
+				75237302293DCC61001B5A3A /* MyWebView.swift in Sources */,
 				752372D4293D798A001B5A3A /* ContentView.swift in Sources */,
 				752372D2293D798A001B5A3A /* myprofileApp.swift in Sources */,
+				75237304293DDDAD001B5A3A /* MyTabView.swift in Sources */,
 				752372FC293D7F33001B5A3A /* MyCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +471,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
