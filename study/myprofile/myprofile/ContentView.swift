@@ -121,6 +121,17 @@ struct ContentView: View {
                                 .background(Color.green)
                                 .cornerRadius(20)
                         }
+                        
+                        NavigationLink(destination: MyTabView2()) {
+                            Text("Tab2")
+                                .fontWeight(.bold)
+                                .padding(5)
+                                .frame(width: 100)
+                                .foregroundColor(.white)
+                                .background(Color.green)
+                                .cornerRadius(20)
+                        }
+
                     }
                     .padding(.top, 10)
                     
