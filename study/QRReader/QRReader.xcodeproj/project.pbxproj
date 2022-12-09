@@ -16,6 +16,7 @@
 		752373332942C25F001B5A3A /* QRReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752373322942C25F001B5A3A /* QRReaderUITestsLaunchTests.swift */; };
 		752373402942C30C001B5A3A /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523733F2942C30C001B5A3A /* CodeScannerView.swift */; };
 		752373432942C3B0001B5A3A /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752373422942C3B0001B5A3A /* ScannerViewController.swift */; };
+		752373462942F1E9001B5A3A /* QRCodeGuideLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752373452942F1E9001B5A3A /* QRCodeGuideLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		752373322942C25F001B5A3A /* QRReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7523733F2942C30C001B5A3A /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
 		752373422942C3B0001B5A3A /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		752373442942CA78001B5A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		752373452942F1E9001B5A3A /* QRCodeGuideLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGuideLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +101,11 @@
 		752373142942C25E001B5A3A /* QRReader */ = {
 			isa = PBXGroup;
 			children = (
+				752373442942CA78001B5A3A /* Info.plist */,
 				752373412942C315001B5A3A /* QR */,
 				752373152942C25E001B5A3A /* QRReaderApp.swift */,
 				752373172942C25E001B5A3A /* ContentView.swift */,
+				752373452942F1E9001B5A3A /* QRCodeGuideLine.swift */,
 				752373192942C25F001B5A3A /* Assets.xcassets */,
 				7523731B2942C25F001B5A3A /* Preview Content */,
 			);
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752373462942F1E9001B5A3A /* QRCodeGuideLine.swift in Sources */,
 				752373182942C25E001B5A3A /* ContentView.swift in Sources */,
 				752373402942C30C001B5A3A /* CodeScannerView.swift in Sources */,
 				752373162942C25E001B5A3A /* QRReaderApp.swift in Sources */,
@@ -436,6 +442,10 @@
 				DEVELOPMENT_TEAM = 22D2PBB7CN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRReader/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 사용 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진 접근 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +476,10 @@
 				DEVELOPMENT_TEAM = 22D2PBB7CN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRReader/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 사용 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진 접근 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
