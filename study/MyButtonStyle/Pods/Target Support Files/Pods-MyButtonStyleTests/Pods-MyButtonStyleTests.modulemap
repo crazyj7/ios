@@ -1,0 +1,6 @@
+framework module Pods_MyButtonStyleTests {
+  umbrella header "Pods-MyButtonStyleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
